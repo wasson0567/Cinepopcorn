@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Warcraft</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light "style="background-color:  #A9F5D0;" >
+  <a class="navbar-brand" href="cine.html"style="color: #585858;">CINEPOPCORN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="cartelera.html"style="color: #585858;">Cartelera <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <span class="navbar-text"style="color: #585858;">Marco Garcia Davila
+    </span> 
+  </div>
+</nav>
+
+   <div class="jumbotron jumbotron-fluid" style="background-image: url(img/vuela.gif);">
+  <div class="container">
+    <h1 class="display-4"style="font-family: 'Anton', sans-serif; text-align: center;color: #000000;">COMPRA DE BOLETOS</h1>
+  </div>
+</div>
+<!--muestra de pelicula-->
+<div class="card">
+  <h5 class="card-header"style="background-color: #A9F5D0;color: #585858;">Cinepolis Naucalpan</h5>
+  <div class="card-body">
+    <h5 class="card-title"style="font-family: 'Teko', sans-serif;">Liga De La Justicia</h5>
+ <!--tarjeta inicio-->
+<div class="row">
+<div class="col-sm-6">
+
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="img/craft.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Sipnosis</h5>
+        <p class="card-text">El pacífico reino de Azeroth está a punto de entrar en guerra para enfrentarse a unos terribles invasores: orcos guerreros que han dejado su destruido mundo para colonizar otro. Al abrirse un portal que conecta ambos mundos, un ejército se enfrenta a la destrucción, y el otro, a la extinción. Dos héroes, uno en cada bando, están a punto de chocar en un enfrentamiento que cambiará el destino de su familia, su pueblo y su hogar. Así empieza una espectacular saga de poder y sacrificio donde se descubren las numerosas caras de la guerra y donde cada uno lucha por lo suyo.</p>
+        <p class="card-text"><small class="text-muted">Duracion: 290min.</small></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!--subtotal-->
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title" style="text-align: center;">SUBTOTAL</h5>
+    <p class="card-text" style="text-align: center;">$150</p>
+    <a href="#" class="btn btn-outline-primary btn-block" style="text-align: center;">CAMBIAR DE CINE</a>
+  </div>
+</div>
+
+<!--barra de pasos-->
+<nav class="nav nav-pills flex-column flex-sm-row btn-block">
+  <a class="flex-sm-fill text-sm-center nav-link active" href="#">Selecciona tu horario</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Escoge tu lugar</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Haz tu pago</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Confirma tu pago</a>
+  
+</nav>
+
+<!--SELLECION-->
+<div class="card text-center btn-block">
+  <div class="card-header">
+    Favor de adquirir el o los boleto(s) en las categorías correctas, los clientes que les corresponda boleto de adulto y porten boleto de menor de edad o tercera edad, no podrán ingresar a la función. Agradeceremos se consulte la política de precios en el cine de tu preferencia.
+SELECCIONA CUÁNTOS BOLETOS QUIERES
+Puedes comprar 10 boletos máximo por transacción.
+  </div>
+</div>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col" style="text-align: center;">Cantidad</th>
+      <th scope="col" style="text-align: center;">Costo</th>
+      <th scope="col" style="text-align: center;">Subtotal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">3 Era edad</td>
+      <td style="text-align: center;"><input type="number"name="quantity" min="0" max="10"> 
+      <td style="text-align: center;}">$40.00</td>
+    </tr>
+
+     <tr>
+      <td style="text-align: center;">Niños</td>
+      <td style="text-align: center;"><input type="number"name="quantity" min="0" max="10"> 
+      <td style="text-align: center;">$40.00</td>
+    </tr>
+
+     <tr>
+      <td style="text-align: center;">Adultos</td>
+      <td style="text-align: center;"><input type="number"name="quantity" min="0" max="10"></td>
+      <td style="text-align: center;">$40.00</td>
+    </tr>
+  </tbody>
+</table>
+<a href="asientos war.html" class="btn btn-outline-primary btn-block" style="text-align: center;">Elegir Asiento</a>
+</div>
+
+</body>
+</html>
